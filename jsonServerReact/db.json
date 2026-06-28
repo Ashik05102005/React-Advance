@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "6",
+      "name": "Anjali",
+      "email": "anjali@example.com",
+      "age": 22
+    },
+    {
+      "id": "7",
+      "name": "Kiran",
+      "email": "kiran@example.com",
+      "age": 26
+    },
+    {
+      "id": "8",
+      "name": "Sneha",
+      "email": "sneha@example.com",
+      "age": 20
+    },
+    {
+      "id": "9",
+      "name": "Dev",
+      "email": "dev@example.com",
+      "age": 27
+    },
+    {
+      "name": "ASHIK",
+      "email": "ashik@gmahbvc",
+      "age": "53",
+      "id": "eGP20zQMOA8"
+    },
+    {
+      "name": "Anu",
+      "email": "Anunandha@123",
+      "age": "21",
+      "id": "64c7wX4bLQA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
