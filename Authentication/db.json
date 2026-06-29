@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "id": "U1aB9XkPq01",
+      "name": "Arjun Nair",
+      "email": "arjun.nair@gmail.com",
+      "password": "Arjun@123",
+      "confirmPassword": "Arjun@123",
+      "createdAt": 1782725001000
+    },
+    {
+      "id": "Ht8LmP2Qx12",
+      "name": "Meera Joseph",
+      "email": "meera.joseph@gmail.com",
+      "password": "Meera@123",
+      "confirmPassword": "Meera@123",
+      "createdAt": 1782725015000
+    },
+    {
+      "id": "Jd4VrN8Ks23",
+      "name": "Rahul Krishna",
+      "email": "rahul.krishna@gmail.com",
+      "password": "Rahul@123",
+      "confirmPassword": "Rahul@123",
+      "createdAt": 1782725030000
+    },
+    {
+      "id": "Qw9XpE5Lm34",
+      "name": "Anjali Menon",
+      "email": "anjali.menon@gmail.com",
+      "password": "Anjali@123",
+      "confirmPassword": "Anjali@123",
+      "createdAt": 1782725050000
+    },
+    {
+      "id": "Mx7ZnL3Vo45",
+      "name": "Vishnu Raj",
+      "email": "vishnu.raj@gmail.com",
+      "password": "Vishnu@123",
+      "confirmPassword": "Vishnu@123",
+      "createdAt": 1782725075000
+    },
+    {
+      "id": "Yk2JmP8Ta56",
+      "name": "Sneha Das",
+      "email": "sneha.das@gmail.com",
+      "password": "Sneha@123",
+      "confirmPassword": "Sneha@123",
+      "createdAt": 1782725100000
+    },
+    {
+      "id": "Rw4CxQ7Pl67",
+      "name": "Adithya Kumar",
+      "email": "adithya.kumar@gmail.com",
+      "password": "Adithya@123",
+      "confirmPassword": "Adithya@123",
+      "createdAt": 1782725125000
+    },
+    {
+      "id": "Po8VbM6Rt78",
+      "name": "Nandana S",
+      "email": "nandana.s@gmail.com",
+      "password": "Nandana@123",
+      "confirmPassword": "Nandana@123",
+      "createdAt": 1782725150000
+    },
+    {
+      "id": "Kl5FdR9Xe89",
+      "name": "Fahad Ali",
+      "email": "fahad.ali@gmail.com",
+      "password": "Fahad@123",
+      "confirmPassword": "Fahad@123",
+      "createdAt": 1782725175000
+    },
+    {
+      "id": "Bn3QtL1Ws90",
+      "name": "Diya Mathew",
+      "email": "diya.mathew@gmail.com",
+      "password": "Diya@123",
+      "confirmPassword": "Diya@123",
+      "createdAt": 1782725200000
+    },
+    {
+      "id": "Xe6JuC4Ap91",
+      "name": "Akhil Dev",
+      "email": "akhil.dev@gmail.com",
+      "password": "Akhil@123",
+      "confirmPassword": "Akhil@123",
+      "createdAt": 1782725225000
+    },
+    {
+      "id": "Ts9MnY7Bh92",
+      "name": "Keerthana P",
+      "email": "keerthana.p@gmail.com",
+      "password": "Keerthana@123",
+      "confirmPassword": "Keerthana@123",
+      "createdAt": 1782725250000
+    },
+    {
+      "id": "Vu1LpK8Gh93",
+      "name": "Muhammed Rizwan",
+      "email": "rizwan@gmail.com",
+      "password": "Rizwan@123",
+      "confirmPassword": "Rizwan@123",
+      "createdAt": 1782725280000
+    },
+    {
+      "id": "Eq5XsN2Wr94",
+      "name": "Aparna R",
+      "email": "aparna.r@gmail.com",
+      "password": "Aparna@123",
+      "confirmPassword": "Aparna@123",
+      "createdAt": 1782725310000
+    },
+    {
+      "id": "Zm8CvD6Ty95",
+      "name": "Sanjay Kumar",
+      "email": "sanjay.kumar@gmail.com",
+      "password": "Sanjay@123",
+      "confirmPassword": "Sanjay@123",
+      "createdAt": 1782725340000
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
