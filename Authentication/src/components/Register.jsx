@@ -65,7 +65,7 @@ function Register() {
     setErrorMsg(validation);
     return;
    }
-   
+   delete values.confirmPassword;
    axios.post('http://localhost:3000/users',values)
    navigate('/');
 

@@ -1,12 +1,18 @@
 import axios from 'axios';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
-
+import { toast } from 'react-toastify';
 
 function Login() {
     const [error,setError]=useState({})
     const [values,setValues]=useState({})
     const navigate= useNavigate()
+    useEffect(()=>{
+      const token=localStorage.getItem("loginToken");
+      if(token){
+         navigate('/dashboard')
+      }
+    },[])
     const submitHandler=async(event)=>{
       event.preventDefault();
       const validation={};
@@ -19,9 +25,10 @@ function Login() {
         }
         else{
           if(res.data[0].password===values.password){
-              console.log("login success full")
-              navigate('/dashboard')
-              
+            const token=crypto.randomUUID();
+            localStorage.setItem('loginToken',token)
+            toast.success("Login succesfull")
+            navigate('/dashboard')
           }
           else{
             validation.password="Incorrect password"

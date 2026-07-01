@@ -4,13 +4,15 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { GrPrevious } from "react-icons/gr";
 import { GrNext } from "react-icons/gr";
-
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
 
 
 export default function Dashboard () {
     const [userData,setUserData]=useState([])
     const [page,setPage]=useState(1);
     const [totalPages,setTotalPages]=useState(1);
+    const navigate=useNavigate();
     const fetchUser=async () => {
         try{
              const response=await axios.get(`http://localhost:3000/users?_page=${page}&_per_page=5`);
@@ -26,13 +28,21 @@ export default function Dashboard () {
     useEffect(()=>{
        fetchUser();
     },[page])
+    const logoutHandler= ()=>{
+                        localStorage.removeItem('loginToken');
+                        toast.info("Logout Successfull");
+                        navigate('/');
+                        }
     
   return (
     <div className='relative'>
         <nav className='flex justify-between shadow-md sticky w-full '>
             <div className='p-5 text-3xl font-bold font-serif'>Dashboard</div>
             <div className='px-11 py-5'>
-                <button  className='px-3 py-1 rounded-md text-md shadow-md bg-green-500 text-white hover:scale-110 transition'><Link  to={'/'} >Logout </Link></button>
+                <button  className='px-3 py-1 rounded-md text-md shadow-md bg-green-500 text-white hover:scale-110 transition'   
+                    onClick={logoutHandler}>
+                    Logout 
+                </button>
             </div>
         </nav>  
         <div className='m-2 shadow-2xl min-h-screen rounded-xl'>
@@ -53,12 +63,12 @@ export default function Dashboard () {
                     onClick={()=>setPage(page-1)}>
                         <GrPrevious className={page===1?`hidden`:`block hover:text-green-600 hover:scale-110 transition cursor-pointer`}/>
                 </button>
-                <p className='hover:text-green-600 hover:scale-110 transition cursor-pointer'>{page}</p>
+                <p className='hover:text-green-600 hover:scale-110 transition cursor-pointer'>{page}/{totalPages}</p>
                 <button
                     disabled={page=== totalPages}
                     
                     onClick={()=>setPage(page+1)}>
-                        <GrNext className={page===totalPages?`hidden `:`block hover:text-green-600 hover:scale-110 transition cursor-pointer`} />
+                        <GrNext className={page===totalPages?`hidden `:`block hover:text-green-600 hover:scale-110 transition cursor-pointer `} />
                 </button>
             </div>
         </div>

@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ashik P K",
+      "email": "ashik@example.com",
+      "phone": "9876543210",
+      "age": 23,
+      "city": "Kozhikode",
+      "gender": "Male",
+      "role": "Frontend Developer"
+    },
+    {
+      "id": 2,
+      "name": "Anjali Nair",
+      "email": "anjali@example.com",
+      "phone": "9876543211",
+      "age": 24,
+      "city": "Kochi",
+      "gender": "Female",
+      "role": "UI Designer"
+    },
+    {
+      "id": 3,
+      "name": "Rahul Kumar",
+      "email": "rahul@example.com",
+      "phone": "9876543212",
+      "age": 26,
+      "city": "Thrissur",
+      "gender": "Male",
+      "role": "Backend Developer"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Joseph",
+      "email": "sneha@example.com",
+      "phone": "9876543213",
+      "age": 22,
+      "city": "Kannur",
+      "gender": "Female",
+      "role": "QA Engineer"
+    },
+    {
+      "id": 5,
+      "name": "Adithya Menon",
+      "email": "adithya@example.com",
+      "phone": "9876543214",
+      "age": 28,
+      "city": "Palakkad",
+      "gender": "Male",
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": 6,
+      "name": "Meera Das",
+      "email": "meera@example.com",
+      "phone": "9876543215",
+      "age": 25,
+      "city": "Malappuram",
+      "gender": "Female",
+      "role": "HR Executive"
+    },
+    {
+      "id": 7,
+      "name": "Arjun S",
+      "email": "arjun@example.com",
+      "phone": "9876543216",
+      "age": 27,
+      "city": "Kollam",
+      "gender": "Male",
+      "role": "DevOps Engineer"
+    },
+    {
+      "id": 8,
+      "name": "Nandana R",
+      "email": "nandana@example.com",
+      "phone": "9876543217",
+      "age": 23,
+      "city": "Alappuzha",
+      "gender": "Female",
+      "role": "Software Engineer"
+    },
+    {
+      "id": 9,
+      "name": "Vishnu Prasad",
+      "email": "vishnu@example.com",
+      "phone": "9876543218",
+      "age": 29,
+      "city": "Kottayam",
+      "gender": "Male",
+      "role": "Project Manager"
+    },
+    {
+      "id": 10,
+      "name": "Aiswarya B",
+      "email": "aiswarya@example.com",
+      "phone": "9876543219",
+      "age": 24,
+      "city": "Pathanamthitta",
+      "gender": "Female",
+      "role": "Business Analyst"
+    },
+    {
+      "id": 11,
+      "name": "Muhammed Rafi",
+      "email": "rafi@example.com",
+      "phone": "9876543220",
+      "age": 30,
+      "city": "Kasaragod",
+      "gender": "Male",
+      "role": "Database Administrator"
+    },
+    {
+      "id": 12,
+      "name": "Neha Sharma",
+      "email": "neha@example.com",
+      "phone": "9876543221",
+      "age": 25,
+      "city": "Bengaluru",
+      "gender": "Female",
+      "role": "Cloud Engineer"
+    },
+    {
+      "id": 13,
+      "name": "Rohit Singh",
+      "email": "rohit@example.com",
+      "phone": "9876543222",
+      "age": 31,
+      "city": "Chennai",
+      "gender": "Male",
+      "role": "Tech Lead"
+    },
+    {
+      "id": 14,
+      "name": "Diya Krishnan",
+      "email": "diya@example.com",
+      "phone": "9876543223",
+      "age": 22,
+      "city": "Mysuru",
+      "gender": "Female",
+      "role": "Intern"
+    },
+    {
+      "id": 15,
+      "name": "Kiran Paul",
+      "email": "kiran@example.com",
+      "phone": "9876543224",
+      "age": 27,
+      "city": "Hyderabad",
+      "gender": "Male",
+      "role": "System Administrator"
+    },
+    {
+      "id": 16,
+      "name": "Reshma Ali",
+      "email": "reshma@example.com",
+      "phone": "9876543225",
+      "age": 26,
+      "city": "Pune",
+      "gender": "Female",
+      "role": "Data Analyst"
+    },
+    {
+      "id": 17,
+      "name": "Fahad K",
+      "email": "fahad@example.com",
+      "phone": "9876543226",
+      "age": 24,
+      "city": "Mangalore",
+      "gender": "Male",
+      "role": "React Developer"
+    },
+    {
+      "id": 18,
+      "name": "Anu Thomas",
+      "email": "anu@example.com",
+      "phone": "9876543227",
+      "age": 29,
+      "city": "Coimbatore",
+      "gender": "Female",
+      "role": "Product Manager"
+    },
+    {
+      "id": 19,
+      "name": "Sanjay R",
+      "email": "sanjay@example.com",
+      "phone": "9876543228",
+      "age": 28,
+      "city": "Trivandrum",
+      "gender": "Male",
+      "role": "Mobile Developer"
+    },
+    {
+      "id": 20,
+      "name": "Priya Mohan",
+      "email": "priya@example.com",
+      "phone": "9876543229",
+      "age": 23,
+      "city": "Calicut",
+      "gender": "Female",
+      "role": "UI/UX Designer"
+    }
+  ]
+}
