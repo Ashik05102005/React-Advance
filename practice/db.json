@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ashik",
+      "email": "ashik@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Sara",
+      "email": "sara@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "3",
+      "name": "John",
+      "email": "john@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "4",
+      "name": "Meera",
+      "email": "meera@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "5",
+      "name": "David",
+      "email": "david@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "6",
+      "name": "Priya",
+      "email": "priya@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "7",
+      "name": "Alex",
+      "email": "alex@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "8",
+      "name": "Nisha",
+      "email": "nisha@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "9",
+      "name": "Tom",
+      "email": "tom@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "10",
+      "name": "Anu",
+      "email": "anu@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "11",
+      "name": "Ravi",
+      "email": "ravi@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "12",
+      "name": "Emma",
+      "email": "emma@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "13",
+      "name": "Kiran",
+      "email": "kiran@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "14",
+      "name": "Sophia",
+      "email": "sophia@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "15",
+      "name": "Arjun",
+      "email": "arjun@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "16",
+      "name": "Liam",
+      "email": "liam@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "17",
+      "name": "Maya",
+      "email": "maya@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "18",
+      "name": "Noah",
+      "email": "noah@example.com",
+      "role": "viewer"
+    },
+    {
+      "id": "19",
+      "name": "Isha",
+      "email": "isha@example.com",
+      "role": "editor"
+    },
+    {
+      "id": "20",
+      "name": "Ethan",
+      "email": "ethan@example.com",
+      "role": "viewer"
+    },
+    {
+      "name": "defwgre",
+      "email": "dfgr@dfd",
+      "role": "editor",
+      "id": "n8funBl2kiI"
+    },
+    {
+      "name": "sfegrtymt",
+      "email": "asdfdggnh@dsafcvb",
+      "role": "",
+      "id": "HRZ8_ELGVy4"
+    },
+    {
+      "name": "ashik",
+      "email": "ashik@gmail.com",
+      "role": "editor",
+      "id": "CjexEAaa424"
+    },
+    {
+      "name": "xcv x",
+      "email": "wdqfe@jhghasx",
+      "role": "editor",
+      "id": "-t2IA1AYVn4"
+    },
+    {
+      "name": "",
+      "email": "",
+      "role": "",
+      "id": "ycmRL2ARlXo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
