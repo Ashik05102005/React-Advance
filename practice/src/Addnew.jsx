@@ -19,7 +19,7 @@ function Addnew() {
     const res = await axios.post("http://localhost:3000/users", input);
     console.log("User added:", res.data);
     setInput({});
-    navigate('/')
+    navigate('/');
   } catch (error) {
     console.error("Error adding user:", error.message);
   }
