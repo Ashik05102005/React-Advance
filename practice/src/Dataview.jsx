@@ -17,8 +17,8 @@ function Counter (state,action){
 
 export default function Dataview (){
   // const [data,setData]
-  const { input ,  setInput } = useContext(newContext)
-  const [page,setPage] = useState(1)
+  const { input ,  setInput , page , setPage } = useContext(newContext);
+  // const [page,setPage] = useState(1)
   const limit=6;
   const {res,total} = useFetch(`http://localhost:3000/users?_page=${page}&_per_page=6`);
   setInput(res)

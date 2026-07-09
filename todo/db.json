@@ -1,0 +1,63 @@
+{ "products" : [
+  {
+    "id": 1,
+    "name": "Smartphone",
+    "description": "Latest Android smartphone",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "description": "15-inch HP Laptop",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+  },
+  {
+    "id": 3,
+    "name": "Headphones",
+    "description": "Wireless JBL Headphones",
+    "image": "https://images.unsplash.com/photo-1580894908361-967195d6d2b5"
+  },
+  {
+    "id": 4,
+    "name": "Sneakers",
+    "description": "Blue running sneakers",
+    "image": "https://images.unsplash.com/photo-1528701800489-20be3c6e6b6d"
+  },
+  {
+    "id": 5,
+    "name": "Wristwatch",
+    "description": "Citizen Men’s Gold Watch",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+  },
+  {
+    "id": 6,
+    "name": "Backpack",
+    "description": "Durable travel backpack",
+    "image": "https://images.unsplash.com/photo-1504280390368-56d56a3c1f5f"
+  },
+  {
+    "id": 7,
+    "name": "Sunglasses",
+    "description": "Ray-Ban Aviator Sunglasses",
+    "image": "https://images.unsplash.com/photo-1518552781621-1e1c9c9f9f1d"
+  },
+  {
+    "id": 8,
+    "name": "Camera",
+    "description": "Canon DSLR Camera",
+    "image": "https://images.unsplash.com/photo-1519183071298-a2962be90b8e"
+  },
+  {
+    "id": 9,
+    "name": "Gaming Console",
+    "description": "Sony PlayStation 5",
+    "image": "https://images.unsplash.com/photo-1606813909026-9f3f3f3f3f3f"
+  },
+  {
+    "id": 10,
+    "name": "Smart TV",
+    "description": "Samsung 55-inch 4K Smart TV",
+    "image": "https://images.unsplash.com/photo-1583225152345-9f3f3f3f3f3f"
+  }
+]
+}

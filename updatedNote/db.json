@@ -1,16 +1,6 @@
 {
   "notes": [
     {
-      "id": "s63VOix3Fdg",
-      "title": "heii",
-      "content": "hiii",
-      "tags": "Personal",
-      "time": "8:44:34 PM",
-      "color": "bg-green-50",
-      "pinned": true,
-      "archive": false
-    },
-    {
       "id": "PDyFEKMn-m4",
       "title": "lalal0000SCDVSFB",
       "content": "kishaaadsvfddfsg",
@@ -39,19 +29,8 @@
       "createdAt": "7/1/2026",
       "color": "bg-blue-50",
       "pinned": false,
-      "archive": false,
+      "archive": true,
       "updatedAt": "7/1/2026"
-    },
-    {
-      "id": "ZP0opJ1wFGg",
-      "title": "feqwgree",
-      "content": "eqrtgefeg",
-      "tags": "Ideas",
-      "createdAt": "7/1/2026",
-      "updatedAt": "7/1/2026",
-      "color": "bg-red-50",
-      "pinned": true,
-      "archive": false
     },
     {
       "id": "_B2PdIo9vlc",
@@ -205,7 +184,7 @@
       "updatedAt": "",
       "color": "bg-yellow-50",
       "pinned": false,
-      "archive": false
+      "archive": true
     },
     {
       "id": "LNrNB1mAZt8",
@@ -274,17 +253,6 @@
       "archive": false
     },
     {
-      "id": "xzMKUIYKjwY",
-      "title": ",mknjhg",
-      "content": "jkhgfc",
-      "tags": "Work",
-      "createdAt": "7/1/2026",
-      "updatedAt": "",
-      "color": "bg-yellow-50",
-      "pinned": false,
-      "archive": false
-    },
-    {
       "id": "_94dMoRLpGA",
       "title": "sdfwvfbg",
       "content": "wwdfege",
@@ -307,17 +275,6 @@
       "archive": false
     },
     {
-      "id": "GBoi_P33-Sc",
-      "title": "l;kojiuhg",
-      "content": "xaDWQFEGR",
-      "tags": "Ideas",
-      "createdAt": "7/1/2026",
-      "updatedAt": "",
-      "color": "bg-yellow-50",
-      "pinned": false,
-      "archive": false
-    },
-    {
       "id": "wCkDWJlSgE0",
       "title": "ER324T",
       "content": "WQER4WG",
@@ -329,33 +286,22 @@
       "archive": false
     },
     {
-      "id": "5NVr6n0DZYo",
-      "title": "defwgr",
-      "content": "efrgeht",
-      "tags": "Ideas",
-      "createdAt": "7/1/2026",
+      "id": "XrhOdIvDWbY",
+      "title": "vdfbgnhmbj",
+      "content": "asdfsg",
+      "tags": "Work",
+      "createdAt": "7/8/2026",
       "updatedAt": "",
       "color": "bg-green-50",
       "pinned": false,
       "archive": false
     },
     {
-      "id": "Tf3UeQ-Qu9c",
-      "title": "sacdsvf d",
-      "content": "sadvsbfdg",
+      "id": "mpS5HHdvpak",
+      "title": "AXsfdsgf",
+      "content": "sfsdgf",
       "tags": "Work",
-      "createdAt": "7/1/2026",
-      "updatedAt": "",
-      "color": "bg-yellow-50",
-      "pinned": false,
-      "archive": false
-    },
-    {
-      "id": "TPe4anJ9TYM",
-      "title": "asdfdvsf",
-      "content": "sdfsvfb",
-      "tags": "Work",
-      "createdAt": "7/1/2026",
+      "createdAt": "7/8/2026",
       "updatedAt": "",
       "color": "bg-yellow-50",
       "pinned": false,
