@@ -1,22 +1,23 @@
-import React, { useContext ,useEffect } from 'react'
+import React, { useContext ,useEffect, useState } from 'react'
 import axios from 'axios';
-import { CartContext } from './context/shopCartContext';
+import { CartContext } from './context/ContextProvider';
 
 export default function useFetch(url) {
-    const { count } = useContext( CartContext ) ;
+    const { products , setProducts  } = useContext( CartContext ) ;
+    // const [data,setData] = useState([])
     const fetchProducts = async ()=>{
         try{
-            const res = await axios.get("https://dummyjson.com/products?limit=20")
-            console.log(res.data.products);
-            
+            const res = await axios.get("https://dummyjson.com/products?limit=20");
+            console.log(res.data.products)
+            setProducts(res.data.products);
+            console.log(products);
         }
         catch(err){
             console.error(err)
         }
     }
-    fetchProducts();
-    // useEffect(()=>{
-    //     fetchProducts();
-    // },[]);
-
+    useEffect(()=>{
+        fetchProducts();
+    },[]);
+    // return data ;
 }
