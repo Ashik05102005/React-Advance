@@ -8,7 +8,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className='h-15 mt-1 max-w-full shadow-md flex justify-between p-3 items-center '>
+    <div className='h-15 mt-1 max-w-full shadow-md flex justify-between p-3 items-center bg-white '>
       <div><HiOutlineBars3 /></div>
       <div className='flex gap-2 items-center'>
         <HiOutlineBell/>
