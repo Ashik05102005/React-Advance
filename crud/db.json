@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "MacBook Air M3",
+      "price": 129999
+    },
+    {
+      "id": "2",
+      "title": "iPhone 16",
+      "price": 89999
+    },
+    {
+      "id": "3",
+      "title": "Samsung Galaxy S25",
+      "price": 84999
+    },
+    {
+      "id": "4",
+      "title": "Sony Headphones",
+      "price": 24999
+    },
+    {
+      "id": "5",
+      "title": "Apple Watch",
+      "price": 45999
+    },
+    {
+      "id": "6",
+      "title": "Dell XPS 15",
+      "price": 149999
+    },
+    {
+      "id": "7",
+      "title": "HP Pavilion",
+      "price": 67999
+    },
+    {
+      "id": "8",
+      "title": "Asus ROG Laptop",
+      "price": 159999
+    },
+    {
+      "id": "9",
+      "title": "JBL Speaker",
+      "price": 9999
+    },
+    {
+      "title": " Mouse",
+      "price": 8999,
+      "id": "10"
+    },
+    {
+      "title": "sony tv",
+      "price": "50000",
+      "id": "gTZklkJ4GXU"
+    },
+    {
+      "title": "redmi 12",
+      "price": "12000",
+      "id": "_uwvJ-zGYHk"
+    },
+    {
+      "title": "realme buds t200x",
+      "price": "1499",
+      "id": "H2m8YntLpm8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

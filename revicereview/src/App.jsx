@@ -10,7 +10,6 @@ function inputFunc(state , action ){
   switch (action.type){
     case "input" :{
       return {...state ,data:action.value }
-      break ;
     }
     case "reset" :{
       return { ...state ,data : ''}
@@ -25,8 +24,17 @@ function inputFunc(state , action ){
       localStorage.setItem("data",JSON.stringify(filteredData))
       return {...state , localData : filteredData};
     }
-    case "update" :{
+    case "updateLocalData" :{
       console.log("updates ")
+      return {...state , Search : action.payload}
+    }
+    case "Searchinput" : {
+      return {...state , search : action.value} ;
+    }
+    case "update" : {
+      console.log("update");
+      console.log(action.payload);
+      return {...state , data : action.payload}
     }
     default :
     return state;
@@ -35,7 +43,8 @@ function inputFunc(state , action ){
 
 
 function App() {
-  const[input , dispatch]=useReducer(inputFunc , {data:'' , localData : []});
+  const [SearchData , setSearchData] = useState ([])
+  const[input , dispatch]=useReducer(inputFunc , {data:'' , localData : [] , search : [] , edit :false });
   const submitHandler = (e)=>{
     e.preventDefault();
     console.log(input);
@@ -51,8 +60,16 @@ function App() {
     localStorage.setItem("data",JSON.stringify([...res ,input.data]));
     dispatch({type:"reset"})
   }
+  const searchChangeHandler = (e)=>{
+    console.log(e.target.value)
+    const res = input.localData.filter((x)=>(x.toLowerCase()).includes(e.target.value));
+    setSearchData(res);
+    console.log(res)
+  }
+
   useEffect(()=>{
       const res = JSON.parse(localStorage.getItem("data")) || [];
+      setSearchData(res);
       dispatch({type : "getData" ,  payload : res})
   },[])
   
@@ -60,21 +77,36 @@ function App() {
   return (
     <>
      <div className='w-full min-h-screen bg-gray-50 flex flex-col justify-center items-center'>
-        <div className='w-1/2 h-fit shadow-xl p-3 rounded-xl bg-white'>
-          <form className=' h-40 flex p-3 flex-col gap-2' onSubmit={submitHandler}>
-            <label className='text-gray-700'>Input</label>
-            <input type='text '
-             placeholder='enter the text'
-             className='border p-1 rounded-md border-gray-200 '
-             value={input.data}
-             onChange={(e)=>dispatch({type:"input" ,value:e.target.value})}></input>
-             <button className='bg-gray-500 text-white px-2 py-1 rounded-xl mt-4 hover:bg-gray-400'>Submit</button>
-          </form>
+      <div className='w-full'>
+        <div className='w-1/2'>
+            <form className=' h-40 flex p-3 flex-col gap-2' >
+                <h1>Search </h1>
+                <label className='text-gray-700'>Search</label>
+                <input type='text '
+                placeholder='search ...'
+                className='border p-1 rounded-md border-gray-200 '
+                // value={input.search}
+                onChange={searchChangeHandler}></input>
+                <button className='bg-gray-500 text-white px-2 py-1 rounded-xl mt-4 hover:bg-gray-400'>Submit</button>
+            </form>
+        </div>
+          <div className='w-1/2 h-fit shadow-xl p-3 rounded-xl bg-white'>
+            <form className=' h-40 flex p-3 flex-col gap-2' onSubmit={submitHandler}>
+            <h1>Create </h1>
+              <label className='text-gray-700'>Input</label>
+              <input type='text '
+              placeholder='enter the text'
+              className='border p-1 rounded-md border-gray-200 '
+              value={input.data}
+              onChange={(e)=>dispatch({type:"input" ,value:e.target.value})}></input>
+              <button className='bg-gray-500 text-white px-2 py-1 rounded-xl mt-4 hover:bg-gray-400'>Submit</button>
+            </form>
+          </div>
         </div>
         <div className='w-full   p-5 flex flex-col  '>
             <div>
               {
-                input.localData.map((x , index)=>(
+                SearchData.map((x , index)=>(
                   <div
                   key={index}
                    className='bg-gray-200 p-3 rounded mt-2 flex justify-between sm:text-2xl'>

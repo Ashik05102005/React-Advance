@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ashik",
+      "email": "ashik@example.com",
+      "age": 22,
+      "city": "Kozhikode",
+      "role": "Student",
+      "password": 123456
+    },
+    {
+      "id": "2",
+      "name": "Ameen",
+      "email": "ameen@example.com",
+      "age": 24,
+      "city": "Kannur",
+      "role": "Developer",
+      "password": 123456
+    },
+    {
+      "id": "3",
+      "name": "Rahul",
+      "email": "rahul@example.com",
+      "age": 27,
+      "city": "Kochi",
+      "role": "Designer",
+      "password": 123456
+    },
+    {
+      "id": "4",
+      "name": "Fathima",
+      "email": "fathima@example.com",
+      "age": 23,
+      "city": "Malappuram",
+      "role": "Developer",
+      "password": 123456
+    },
+    {
+      "id": "5",
+      "name": "Anjali",
+      "email": "anjali@example.com",
+      "age": 21,
+      "city": "Thrissur",
+      "role": "Student",
+      "password": 123456
+    },
+    {
+      "id": "6",
+      "name": "Nikhil",
+      "email": "nikhil@example.com",
+      "age": 29,
+      "city": "Palakkad",
+      "role": "Manager",
+      "password": 123456
+    },
+    {
+      "name": "assfdf",
+      "email": "afsgd",
+      "password": "asdfdg",
+      "id": "TJ7WJUeNlsc"
+    },
+    {
+      "name": "ashik",
+      "email": "ashik@gmail.com",
+      "password": "ashik@123",
+      "id": "YeHY5Qm-JEk"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 799,
+      "stock": 20,
+      "rating": 4.5,
+      "brand": "Logitech"
+    },
+    {
+      "id": "2",
+      "title": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 2499,
+      "stock": 12,
+      "rating": 4.8,
+      "brand": "Redragon"
+    },
+    {
+      "id": "3",
+      "title": "Gaming Headset",
+      "category": "Electronics",
+      "price": 1799,
+      "stock": 18,
+      "rating": 4.3,
+      "brand": "HyperX"
+    },
+    {
+      "id": "4",
+      "title": "Office Chair",
+      "category": "Furniture",
+      "price": 6999,
+      "stock": 6,
+      "rating": 4.7,
+      "brand": "GreenSoul"
+    },
+    {
+      "id": "5",
+      "title": "Study Table",
+      "category": "Furniture",
+      "price": 5499,
+      "stock": 10,
+      "rating": 4.4,
+      "brand": "IKEA"
+    },
+    {
+      "id": "6",
+      "title": "Smart Watch",
+      "category": "Wearables",
+      "price": 3499,
+      "stock": 15,
+      "rating": 4.6,
+      "brand": "Noise"
+    },
+    {
+      "id": "7",
+      "title": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 1999,
+      "stock": 25,
+      "rating": 4.2,
+      "brand": "Boat"
+    },
+    {
+      "id": "8",
+      "title": "Backpack",
+      "category": "Accessories",
+      "price": 999,
+      "stock": 30,
+      "rating": 4.1,
+      "brand": "Skybags"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Learning React",
+      "author": "Ashik",
+      "likes": 35,
+      "published": true
+    },
+    {
+      "id": "2",
+      "title": "Understanding Axios",
+      "author": "Rahul",
+      "likes": 18,
+      "published": true
+    },
+    {
+      "id": "3",
+      "title": "Tailwind CSS Guide",
+      "author": "Ameen",
+      "likes": 50,
+      "published": false
+    },
+    {
+      "id": "4",
+      "title": "React Router Basics",
+      "author": "Anjali",
+      "likes": 42,
+      "published": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1,
+      "status": "Delivered"
+    },
+    {
+      "id": "2",
+      "userId": 2,
+      "productId": 4,
+      "quantity": 2,
+      "status": "Pending"
+    },
+    {
+      "id": "3",
+      "userId": 3,
+      "productId": 6,
+      "quantity": 1,
+      "status": "Shipped"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
