@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter >
         <Routes>
-          <Route path='' element={<MainView />}></Route>
+          <Route path='/' element={<MainView />}></Route>
           <Route path='/data/:id' element={<DataView />}></Route>
         </Routes>
       </BrowserRouter>
